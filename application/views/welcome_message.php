@@ -67,7 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div id="container">
+<div id="container" style="text-align:center;">
 	<h1>Welcome to BBPMSOH API !</h1>
 
 	<!-- <div id="body">
