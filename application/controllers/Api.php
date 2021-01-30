@@ -108,9 +108,6 @@ class Api extends RestController {
         // echo '<pre>'.$fullQuery;
         // exit;
         $query = $this->db_balai->query($fullQuery);
-        // echo $query->num_rows();
-        // exit;
-
         if($query->num_rows() > 0){
             $datas = $query->result_array();
             $this->response( $datas, 200 );
