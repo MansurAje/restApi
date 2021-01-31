@@ -10,6 +10,7 @@ class Api extends RestController {
         // Construct the parent class
         parent::__construct();
         $this->db_balai = $this->load->database('default', true);
+        $this->methods['sertifikat_get']['limit'] = 100;
     }
 
     public function users_get()
