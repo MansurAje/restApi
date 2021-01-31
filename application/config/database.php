@@ -98,5 +98,9 @@ $db['default'] = array(
 	'autoinit' => TRUE,
 	'failover' => array(),
 	'save_queries' => TRUE
+<<<<<<< HEAD
 );
 
+=======
+);
+>>>>>>> fee2ff7a033fcdcda1a4c97ea3a278d0353e3dad
